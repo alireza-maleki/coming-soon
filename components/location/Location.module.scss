@@ -1,0 +1,44 @@
+.hr {
+  width: 100px;
+  height: 5px;
+  background-color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2% auto;
+}
+
+.form {
+  border: 1px solid #ececec;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.06);
+  // padding: 18px 14px;
+}
+
+.user-location {
+  border: 1px solid #ececec;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.icon {
+  font-size: 46px;
+  color: #fff;
+  margin-left: 20px;
+  border: 1px solid #ececec;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: blue;
+  border-color: blue;
+}

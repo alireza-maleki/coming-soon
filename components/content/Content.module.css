@@ -1,0 +1,19 @@
+.ityped-cursor {
+  font-size: 2.2rem;
+  opacity: 1;
+  animation: blink 1.2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+.text-white {
+  color: #fff;
+}
+
+.text-dark {
+  color: #000;
+}/*# sourceMappingURL=Content.module.css.map */
